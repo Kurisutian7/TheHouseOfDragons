@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ElectionActivity</string>
+    <string name="name">Nombre a mostrar</string>ç
+    <string name="answer">Respuesta</string>
+    <string name="greeting">Sir %s, es el momento de que tomes una difícil elección...</string>
+
+    <!-- Mensajes finales -->
+    <string name="final_message_default">No se ha tomado ninguna decisión.</string>
+    <string name="final_message_raenira">Has decidido apoyar a Raenira Targaryen. La sangre de los dragones te guiará.</string>
+    <string name="final_message_aegon">Has decidido apoyar a Aegon Targaryen. Los Siete te protegerán... o no.</string>
+    <string name="final_message_both">Intentaste jugar a dos bandos... La traición no tiene aliados.</string>
+    <string name="final_message_none">No tomaste una decisión. Serás olvidado en la historia.</string>
+
+    <!-- Botón Salir -->
+    <string name="exit_button_text">Salir</string>
+
+</resources>

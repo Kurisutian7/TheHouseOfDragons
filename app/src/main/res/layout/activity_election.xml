@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".EleccionActivity">
+
+    <!-- Etiqueta inicial -->
+    <TextView
+        android:id="@+id/tvExplanation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="El rey Viserys ha muerto... Debes elegir a su sucesor como rey de los Ándalos y de los Primeros Hombres, Señor de los Siete Reinos y Protector del Reino. Para ello debes decidir entre apoyar a..."
+        android:textSize="16sp"
+        android:paddingBottom="16dp"
+        android:textAlignment="center" />
+
+    <!-- Grupo de CheckBoxes -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cbRaenira"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Raenira Targaryen" />
+
+        <CheckBox
+            android:id="@+id/cbAegon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Aegon Targaryen" />
+    </LinearLayout>
+
+    <!-- Etiqueta de información -->
+    <TextView
+        android:id="@+id/tvOptionInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Si no tomas una decisión no podrás salir de esta encrucijada."
+        android:textSize="14sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textAlignment="center" />
+
+    <!-- Botón de acción -->
+    <Button
+        android:id="@+id/btnHincarRodilla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hincar la rodilla"
+        android:padding="16dp"
+        android:layout_marginTop="24dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>
